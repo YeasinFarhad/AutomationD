@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="none">
+    <test name="Chrome Suite">
+        <parameter name="Browser" value="Chrome"></parameter>
+        <classes>
+            <class name="testNG_1005.express_data_driven_loggers2"/>
+        </classes>
+    </test>
+    <test name="Firefox Suite">
+        <parameter name="Browser" value="Firefox"></parameter>
+        <classes>
+            <class name="testNG_1005.WeightWatchers_TestNG2"/>
+        </classes>
+    </test>
+</suite>

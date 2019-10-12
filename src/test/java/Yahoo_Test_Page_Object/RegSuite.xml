@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="none">
+    <parameter name="Browser" value="chrome"> </parameter>
+    <test name="Regression Suite">
+        <classes>
+            <class name="Yahoo_Test_Page_Object.TC02_Yahoo_Registration"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Suite">
+        <parameter name="Browser" value="Firefox"></parameter>
+        <classes>
+            <class name="Yahoo_Test_Page_Object.TC02_Yahoo_Registration"/>
+        </classes>
+    </test>
+</suite>
